@@ -1,0 +1,8 @@
+## ATALHOS VSCODE
+> Alt+Z		-organiza linhas
+> Ctrl+F	-find
+> Ctrl+H	-Replace
+> Ctrl+Shift+F  -procura em todos arquivos
+> Ctrl+B	-esconder barra lateral
+
+EXTENSÃO: Live Preview

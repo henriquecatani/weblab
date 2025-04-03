@@ -1,0 +1,8 @@
+git config --global user.name "henriquecatani"
+git config --global user.email "catanihenrique22@gmail.com"
+
+ git clone https://github.com/henriquecatani/weblab.git .
+para abrir o vscode numa pasta aberta no terminal: code .
+git add index.html
+git commit -m "Descricao do commit"
+git status

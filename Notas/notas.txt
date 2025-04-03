@@ -1,0 +1,35 @@
+## COMANDOS LINUX
+
+> mkdir nomeDaPasta
+> touch		 - cria arquivo
+> cd ~/		- vai para pasta do usuario
+> rm
+> echo "teste" >> exemplo.txt 	- adiciona tal ao arquivo
+
+### permissoes
+> ls -l		 - ver permissoes na pasta
+	TIPOS (início da linha):
+		- arquivo
+		d diretório
+	PERMISSOES (após o tipo):
+		- sem permissão
+		r read
+		w write
+		x execute
+	ORDEM PERM: rwx ( - substitui quando não tem permissão)
+	ORDEM (tipos de usuários): a  user, g  grupo, o outros
+	EXEMPLO: drwxrw-r--
+		(diretório ,user rwx, grupo rw-, outros r--)
+
+> chmod permissoes arquivo	- altera permissoes
+	EXEMPLOS: u+rwx (adiciona as permissoes ao user), g-r (remove a permissao de execucao dos grupos)
+	
+### ler arquivos
+> less exemplo.txt 
+> cat exemplo.txt - mostra todo o texto
+> head {parametros} exemplo.txt  - só a parte de cima
+> tail {parametros} exemplo.txt  - só parte de baixo.
+	PARAMETROS head e tail :"-n n_linhas" mostra o numero de linhas dito.  "-f" mostra as atualizações ao vivo, ctrl C para sair.    
+
+> cp /diretorio/exemplo.txt .   - copia o arquivo para outro diretorio, o ponto significa localização atual
+

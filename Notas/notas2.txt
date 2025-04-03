@@ -1,0 +1,18 @@
+### NOTAS AULA 4 WEBLAB 13-03-25
+
+# links
+> https://lipsum.com/feed/html	- gerador de lorem ipsum
+
+# comandos
+> ping exemplo.com	- verifica a resposta do servidor
+
+# tags basicas html
+(para gerar codigo html digite html5 no início do arquivo no vscode)
+
+VER TAGS NO PDF DA AULA
+
+EXEMPLOS:
+> H<sub>2</sub>O
+
+TEMA:
+Fazer receita do mousse em HTML
