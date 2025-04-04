@@ -1,8 +1,18 @@
-git config --global user.name "henriquecatani"
-git config --global user.email "catanihenrique22@gmail.com"
+> git config --global user.name "henriquecatani"
+> git config --global user.email "catanihenrique22@gmail.com"
 
- git clone https://github.com/henriquecatani/weblab.git .
-para abrir o vscode numa pasta aberta no terminal: code .
-git add index.html
-git commit -m "Descricao do commit"
-git status
+> git clone https://github.com/henriquecatani/weblab.git .
+	- o ponto diz que os arquivos serão salvos na pasta local, sem o ponto ele cria uma pasta
+> code .
+	- abre o vscode na pasta aberta no terminal
+> git add index.html
+	- adiciona à lista de arquivos que irão para o próximo commit, 
+	se colocar um ponto no lugar do nome do arquivo ele adiciona todos os arquivos não adicionados
+> git status
+	- verifica os arquivos do repositorio local comparado aos online
+> git commit -m "Descricao do commit"
+	- cria um commit, é tipo uma atualização
+> git push
+	- envia todos os commits para seu repositorio no github
+
+
