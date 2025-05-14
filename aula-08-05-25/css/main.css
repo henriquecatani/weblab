@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+    font-family: Emerland;
+    src: url('/aula-08-05-25/Emerland.ttf')
+}
+#titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.semaforo * {
+    display: grid;
+    position: sticky;
+}
+.marao {
+    height: 200px;
+    width: 100px;
+    background-color: brown;
+    border-radius: 20px;
+    border: 10px solid;
+    border-color: black;
+
+}
+.grin {
+    height: 200px;
+    width: 100px;
+    background-color: green;
+    border: 10px solid;
+    border-color: black;
+
+}
+.ielo {
+    height: 200px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 10px solid;
+    border-color: black;
+
+}
+.emerland {
+    
+    font-family: 'Emerland', serif;
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+nav * {
+    display: inline;
+    position: relative;
+    word-spacing: 10px;
+}
