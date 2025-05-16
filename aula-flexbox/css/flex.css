@@ -1,0 +1,50 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+}
+.caixa {
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+}
+.brasao {
+    justify-content: space-around;
+}
+.topo {
+    background-color: aliceblue;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.botoes {
+    background-color: aliceblue;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+.botao {
+    background-color: rgb(160, 197, 197);
+    height: 50px;
+    width: 80px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: aquamarine;
+}
+.ativo {
+    background-color: rgb(90, 194, 212);
+}
